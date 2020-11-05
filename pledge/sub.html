@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+
+
+
+
+
+
+	<title>열린군수실_서브</title>
+	<meta name="Keywords" content="" />
+	<meta name="Description" content="정선군 희망정선 실천과제입니다." />
+	<meta name="Author" content="" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+
+	<link rel="stylesheet" href="/page/common/css/fonts.css" />
+	<link rel="stylesheet" href="/page/common/css/common.css" />
+	<link rel="stylesheet" href="/page/common/css/print.css" media="print" />
+	<link rel="stylesheet" href="/page/common/css/jquery-ui.min.css" />
+	<link href="/page/pledge/css/style.css" rel="stylesheet" />
+	<link href="/page/pledge/css/conts.css" rel="stylesheet" />
+	<link href="/page/pledge/css/sub.css" rel="stylesheet" />
+
+	<script src="/page/common/js/jquery-1.12.2.min.js"></script>
+	<script src="/page/common/js/jquery.easing.1.3.min.js"></script>
+	<script src="/page/common/js/jquery-ui.min.js"></script>
+	<!--[if lt IE 9]>
+<script src="/page/common/js/html5shiv.js"></script>
+<![endif]-->
+	<script src="/page/common/js/page/common.js"></script>
+	<!--script charset="UTF-8" class="daum_roughmap_loader_script" src="http://dmaps.daum.net/map_js_init/roughmapLoader.js"></script-->
+	<script src="/page/common/js/roughmapLoader.js"></script>
+	<script src="/page/common/js/jquery.bxslider.js"></script>
+	<script src="/page/common/jquery.cookie.js"></script>
+	<script src="/page/common/date.js"></script>
+	<script src="/page/common/util.js"></script>
+	<script src="/page/common/utillity.js"></script>
+	<script src="/page/common/jquery-dateFormat.min.js"></script>
+
+	<!-- 게시판 파일 첨부 스크립트를 공통으로 옮긴 후 삭제 해야함 /page/portal/js/script.js -->
+	<script src="/page/pledge/js/script.js"></script>
+
+
+
+
+
+
+
+
+
+	<script>
+		$(document).ready(function() {
+			var pageUrl = '/pledge/pledge/project';
+			var pageName = '행복정선 실천과제';
+			if ('/pledge/pledge/project') {
+				$.ajax({
+					type: 'POST',
+					url: '/egf/insertPageHit',
+					data: {
+						'pageUrl': pageUrl,
+						'pageName': pageName
+					},
+					dataType: 'json'
+				});
+			}
+		});
+	</script>
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+	<div class="page-wrap">
+		<!-- Hdr -->
+
+
+
+		<ul id="SkipNav">
+			<li><a href="#A-Gnb-focus">주메뉴 바로가기</a></li>
+			<li><a href="#A-Contents-focus">본문 바로가기</a></li>
+			<li><a href="#A-Ftr-focus">푸터 바로가기</a></li>
+		</ul>
+
+
+
+
+		<!-- header -->
+		<header id="Hdr">
+			<div class="hdrUtilArea">
+				<div class="hdrUtilArea-inner skinContainer">
+					<!-- 빠른 바로가기  -->
+
+
+
+
+
+
+
+					<div class="qckRefSite">
+
+
+
+						<a href="/portal"> <img src="/page/common/images/ico-home2.png" alt="" />정선군청</a>
+
+
+
+						<a href="http://assembly.jeongseon.go.kr/" target="_blank" title="새 창 이동">정선군의회</a>
+						<a href="/tour" target="_blank" title="새 창 이동">정선여행</a>
+					</div>
+
+
+					<!--// 빠른 바로가기  -->
+
+					<div class="qckHdrUtilArea">
+						<a href="#" id="bookMark" class="btnCompact">
+							<img src="/page/common/images/ico-compact-bookmark.png" alt="" /> 북마크
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="header">
+				<div class="skinContainer">
+					<div class="logo">
+						<h1>
+							<a href="/portal" title="새 창 이동" target="_blank">
+								<img src="/page/pledge/images/common/logo.png" alt="열린군수실" />
+							</a>
+						</h1>
+					</div>
+
+					<nav>
+						<ul class="depth1">
+							<li>
+								<a href="#">군민과 함께</a>
+								<ul class="depth2">
+									<li><a href="#">행복정신 실천과제</a></li>
+									<li><a href="#">공약추진상황</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">일하는 정선군수</a>
+								<ul class="depth2">
+									<li><a href="#">현장스케치</a></li>
+									<li><a href="#">군수에게 바란다</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">김진철입니다</a>
+								<ul class="depth2">
+									<li><a href="#">인사말</a></li>
+									<li><a href="#">프로필</a></li>
+									<li><a href="#">역대군수</a></li>
+								</ul>
+							</li>
+						</ul>
+
+
+					</nav>
+
+					<div class="menu">
+						<button class="open"><span class="blind">전체메뉴열기</span></button>
+						<button class="close"><span class="blind">전체메뉴닫기</span></button>
+					</div>
+				</div>
+				<div class="gnb-subBg" data-site="governor" style="display: none;height: 42px;width: 1903px;"></div>
+			</div>
+
+
+
+
+
+			<div id="allMenu" class="allMenugovernor">
+
+
+				<ul class="allMenu-list" style="height: auto;">
+
+
+
+
+					<li class="">
+						<a href="/42nd-governor/pledge" class="allMenu-btn">
+							군민과 함께
+
+						</a>
+
+						<div class="allMenu-list2governor">
+
+
+
+
+							<div class="allMenu-group">
+
+
+								<div class="allMenu-item">
+									<a href="/42nd-governor/pledge/project" class="allMenu-btn2">
+										행복정선 실천과제
+									</a>
+									<ul class="allMenu-list3 skinBuList">
+
+
+
+
+
+
+
+
+									</ul>
+								</div>
+
+
+
+
+
+
+
+
+
+
+								<div class="allMenu-item">
+									<a href="/42nd-governor/pledge/propel" class="allMenu-btn2">
+										공약추진상황
+									</a>
+									<ul class="allMenu-list3 skinBuList">
+
+
+
+
+
+
+
+
+
+
+									</ul>
+								</div>
+
+
+
+								<div class="allMenu-item"></div>
+
+								<div class="allMenu-item"></div>
+
+
+
+
+							</div>
+
+
+
+
+
+						</div>
+					</li>
+
+
+
+
+
+					<li class="active">
+						<a href="/42nd-governor/working_governor" class="allMenu-btn">
+							일하는 정선군수
+
+						</a>
+
+						<div class="allMenu-list2governor">
+
+
+
+
+							<div class="allMenu-group">
+
+
+								<div class="allMenu-item">
+									<a href="/42nd-governor/working_governor/photo" class="allMenu-btn2">
+										현장스케치
+									</a>
+									<ul class="allMenu-list3 skinBuList">
+
+
+
+
+
+
+									</ul>
+								</div>
+
+
+
+
+
+
+
+
+
+
+								<div class="allMenu-item">
+									<a href="/42nd-governor/working_governor/proposal" class="allMenu-btn2">
+										군수에게 바란다
+									</a>
+									<ul class="allMenu-list3 skinBuList">
+
+
+
+
+
+
+
+
+
+
+									</ul>
+								</div>
+
+
+
+								<div class="allMenu-item"></div>
+
+								<div class="allMenu-item"></div>
+
+
+
+
+							</div>
+
+
+
+
+
+						</div>
+					</li>
+
+
+
+
+
+					<li class="">
+						<a href="/42nd-governor/personal" class="allMenu-btn">
+							최승준입니다.
+
+						</a>
+
+						<div class="allMenu-list2governor">
+
+
+
+
+							<div class="allMenu-group">
+
+
+								<div class="allMenu-item">
+									<a href="/42nd-governor/personal/greeting" class="allMenu-btn2">
+										인사말
+									</a>
+									<ul class="allMenu-list3 skinBuList">
+
+
+
+
+
+
+									</ul>
+								</div>
+
+
+
+
+
+
+
+
+
+
+								<div class="allMenu-item">
+									<a href="/42nd-governor/personal/profile" class="allMenu-btn2">
+										프로필
+									</a>
+									<ul class="allMenu-list3 skinBuList">
+
+
+
+
+
+
+									</ul>
+								</div>
+
+
+
+
+
+
+
+
+
+
+								<div class="allMenu-item">
+									<a href="/42nd-governor/personal/history" class="allMenu-btn2">
+										역대군수
+									</a>
+									<ul class="allMenu-list3 skinBuList">
+
+
+
+
+
+
+									</ul>
+								</div>
+
+
+
+								<div class="allMenu-item"></div>
+
+
+
+
+							</div>
+
+
+
+
+
+						</div>
+					</li>
+
+
+
+
+				</ul>
+
+				<div class="gnb-bg" style=" position: absolute; top: 0; height: 1090px;"></div>
+
+			</div>
+
+			<div class="gnb">
+				<ul class="gnb-list" data-site="governor" style="height: 853px;">
+					<li class="sitemap">
+						<ul>
+
+
+
+
+
+							<li><a href="/portal" target="_blank" title="open new window">KOREAN</a></li>
+							<li><a href="/en" target="_blank" title="open new window">ENGLISH</a></li>
+							<li><a href="/jp" target="_blank" title="open new window">JAPANESE</a></li>
+
+
+
+						</ul>
+					</li>
+
+
+					<li class="active">
+						<div class="gnb-subTit">
+							군민과 함께
+							<div>
+
+
+
+
+							</div>
+							<img src="/page/common/images/img-gnb-sub-title-pledge.png" alt="">
+						</div>
+						<a href="/42nd-governor/pledge" class="gnb-btn">
+							<div class="gnb-ico">
+								<img src="/page/common/images/ico-gnb-pledge.png" alt="">
+							</div>
+
+							군민과 함께
+
+						</a>
+
+						<ul class="gnb-list2" data-site="governor" style="min-height: 1453px;">
+
+
+
+
+							<li>
+								<a href="/42nd-governor/pledge/project" class="gnb-btn2">
+									행복정선 실천과제
+
+								</a>
+
+								<ul class="gnb-list3 skinBuList" data-site="governor">
+
+
+
+
+
+
+
+
+								</ul>
+							</li>
+
+
+
+
+
+							<li>
+								<a href="/42nd-governor/pledge/propel" class="gnb-btn2">
+									공약추진상황
+
+								</a>
+
+								<ul class="gnb-list3 skinBuList" data-site="governor">
+
+
+
+
+
+
+
+
+
+
+								</ul>
+							</li>
+
+
+
+
+						</ul>
+					</li>
+
+
+
+
+					<li>
+						<div class="gnb-subTit">
+							일하는 정선군수
+							<div>
+
+
+
+
+							</div>
+							<img src="/page/common/images/img-gnb-sub-title-working_governor.png" alt="">
+						</div>
+						<a href="/42nd-governor/working_governor" class="gnb-btn">
+							<div class="gnb-ico">
+								<img src="/page/common/images/ico-gnb-working_governor.png" alt="">
+							</div>
+
+							일하는 정선군수
+
+						</a>
+
+						<ul class="gnb-list2" data-site="governor" style="min-height: 1453px;">
+
+
+
+
+							<li>
+								<a href="/42nd-governor/working_governor/photo" class="gnb-btn2">
+									현장스케치
+
+								</a>
+
+								<ul class="gnb-list3 skinBuList" data-site="governor">
+
+
+
+
+
+
+								</ul>
+							</li>
+
+
+
+
+
+							<li>
+								<a href="/42nd-governor/working_governor/proposal" class="gnb-btn2">
+									군수에게 바란다
+
+								</a>
+
+								<ul class="gnb-list3 skinBuList" data-site="governor">
+
+
+
+
+
+
+
+
+
+
+								</ul>
+							</li>
+
+
+
+
+						</ul>
+					</li>
+
+
+
+
+					<li>
+						<div class="gnb-subTit">
+							최승준입니다.
+							<div>
+
+
+
+
+							</div>
+							<img src="/page/common/images/img-gnb-sub-title-personal.png" alt="">
+						</div>
+						<a href="/42nd-governor/personal" class="gnb-btn">
+							<div class="gnb-ico">
+								<img src="/page/common/images/ico-gnb-personal.png" alt="">
+							</div>
+
+							최승준입니다.
+
+						</a>
+
+						<ul class="gnb-list2" data-site="governor" style="min-height: 1453px;">
+
+
+
+
+							<li>
+								<a href="/42nd-governor/personal/greeting" class="gnb-btn2">
+									인사말
+
+								</a>
+
+								<ul class="gnb-list3 skinBuList" data-site="governor">
+
+
+
+
+
+
+								</ul>
+							</li>
+
+
+
+
+
+							<li>
+								<a href="/42nd-governor/personal/profile" class="gnb-btn2">
+									프로필
+
+								</a>
+
+								<ul class="gnb-list3 skinBuList" data-site="governor">
+
+
+
+
+
+
+								</ul>
+							</li>
+
+
+
+
+
+							<li>
+								<a href="/42nd-governor/personal/history" class="gnb-btn2">
+									역대군수
+
+								</a>
+
+								<ul class="gnb-list3 skinBuList" data-site="governor">
+
+
+
+
+
+
+								</ul>
+							</li>
+
+
+
+
+						</ul>
+					</li>
+
+
+
+
+				</ul>
+
+			</div>
+
+		</header>
+		<!--//header -->
+		<!--// Hdr -->
+
+
+
+
+
+
+
+
+
+
+		<progress id="progressScroll" class="progress" value="0" max="100"></progress>
+		<section id="Sub">
+
+
+
+
+
+
+
+
+			<div class="subVisual subVisual-data-pledge">
+				<h3 class="subVisual-tit">
+
+
+
+
+
+
+
+					<span>소통하는 정선군수</span>
+
+
+
+
+
+
+
+
+
+
+					군민과 함께
+				</h3>
+				<div class="qckUtil">
+					<a href="https://www.facebook.com/jsariari" target="_blank" title="새 창 이동" class="qckUtil-facebook">페이스북</a>
+					<a href="http://blog.naver.com/ariaritour" target="_blank" title="새 창 이동" class="qckUtil-twitter">블로그</a>
+					<a href="#nolink" onclick="contentPrint();" class="qckUtil-print">프린터</a>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+			<div id="A-Lnb" class="breadCrumbs">
+				<!-- breadCrumbs -->
+				<ul class="breadCrumbs-depth">
+					<li class="item-home"><a href="/pledge" class="breadCrumbs-btn"><img src="/page/common/images/ico-home.gif" alt="홈으로 이동" /></a></li>
+
+
+					<li>
+						<a href="/" class="breadCrumbs-btn">
+							<span>
+								군민과 함께
+
+							</span>
+						</a>
+						<ul class="breadCrumbs-depth2">
+
+
+
+
+							<li class="active">
+								<a href="/pledge/pledge">
+									군민과 함께
+
+								</a>
+							</li>
+
+
+
+
+
+							<li>
+								<a href="/pledge/working_governor">
+									일하는 정선군수
+
+								</a>
+							</li>
+
+
+
+
+
+							<li>
+								<a href="/pledge/personal">
+									김진철입니다.
+
+								</a>
+							</li>
+
+
+
+
+						</ul>
+					</li>
+
+
+
+					<li>
+						<a href="/" class="breadCrumbs-btn">
+							<span>
+								행복정선 실천과제
+
+							</span>
+						</a>
+						<ul class="breadCrumbs-depth2">
+
+
+
+
+							<li class="active">
+								<a href="/pledge/pledge/project">
+									행복정선 실천과제
+
+								</a>
+							</li>
+
+
+
+
+
+							<li>
+								<a href="/pledge/pledge/propel">
+									공약추진상황
+
+								</a>
+							</li>
+
+
+
+
+						</ul>
+					</li>
+
+
+
+				</ul>
+				<!-- //breadCrumbs -->
+			</div>
+
+
+			<section id="A-Contents" class="contsArea skinContainer">
+
+
+
+
+
+
+
+
+
+
+				<ul class="pageTab -1 /pledge/pledge/project" style="height: 58px;">
+
+
+
+
+					<li class="" style="height: 58px;">
+						<a href="/page/pledge/download/pledge_regulation.pdf" class="pageTab-tab" target="_blank" title="새 창">
+							관리규칙
+
+							<img src="/page/common/images/ico-newwindow.png" alt="새 창 아이콘">
+
+						</a>
+
+
+
+					</li>
+
+
+
+
+				</ul>
+
+
+
+
+
+
+				<a href="#A-Contents-focus" id="A-Contents-focus" class="blind">본문 바로가기 초점을 받기위한 요소</a>
+
+				<h4 class="blind">행복정선 실천과제</h4>
+
+
+
+
+
+
+
+
+
+
+				<div class="contents">
+					<!-- 콘텐츠 영역 -->
+
+				</div>
+				<!-- //콘텐츠 영역 -->
+
+
+
+
+
+
+
+
+
+				<div class="fmSatis-contact">
+
+
+
+					<div class="modify"><img src="/page/common/images/ico-satisfaction2.png" alt=""><span>최종수정일 : </span> 2019-02-15</div>
+
+
+
+
+				</div>
+
+
+
+
+
+
+
+				<div class="contsUtil skinContainer">
+					<a href="https://www.facebook.com/jsariari" target="_blank" title="새 창 이동">페이스북</a>
+					<a href="http://blog.naver.com/ariaritour" target="_blank" title="새 창 이동">트위터</a>
+					<a href="#SkipNav">TOP</a>
+				</div>
+
+
+
+
+
+			</section>
+		</section>
+
+		<!-- Ftr -->
+
+		<footer id="Ftr">
+			<div class="skinContainer">
+				<div class="footer">
+					<ul class="ftrQckSite-depth clearfix">
+
+						<li>
+							<button type="button" class="ftrQckSite-btnDepth">
+								<span>
+									읍면 행정복지센터
+								</span>
+							</button>
+							<dl class="ftrQckSite-depth2">
+								<dt>읍면 행정복지센터</dt>
+								<dd>
+									<ul class="cmpe-list" data-bullet="disc">
+
+
+										<li>
+											<a href="/portal/jeongseongun/em_welfarecenter/greeting-jeongseoneup/em_greeting">
+												정선읍 행정복지센터
+
+											</a>
+										</li>
+
+										<li>
+											<a href="/portal/jeongseongun/em_welfarecenter/greeting-gohaneup/em_greeting">
+												고한읍 행정복지센터
+
+											</a>
+										</li>
+
+										<li>
+											<a href="/portal/jeongseongun/em_welfarecenter/greeting-sabukeup/em_greeting">
+												사북읍 행정복지센터
+
+											</a>
+										</li>
+
+										<li>
+											<a href="/portal/jeongseongun/em_welfarecenter/greeting-sindongeup/em_greeting">
+												신동읍 행정복지센터
+
+											</a>
+										</li>
+
+										<li>
+											<a href="/portal/jeongseongun/em_welfarecenter/greeting-hwaammyeon/em_greeting">
+												화암면 행정복지센터
+
+											</a>
+										</li>
+
+										<li>
+											<a href="/portal/jeongseongun/em_welfarecenter/greeting-nammyeon/em_greeting">
+												남면 행정복지센터
+
+											</a>
+										</li>
+
+										<li>
+											<a href="/portal/jeongseongun/em_welfarecenter/greeting-yeoryangmyeon/em_greeting">
+												여량면 행정복지센터
+
+											</a>
+										</li>
+
+										<li>
+											<a href="/portal/jeongseongun/em_welfarecenter/greeting-bukpyeongmyeon/em_greeting">
+												북평면 행정복지센터
+
+											</a>
+										</li>
+
+										<li>
+											<a href="/portal/jeongseongun/em_welfarecenter/greeting-imgyemyeon/em_greeting">
+												임계면 행정복지센터
+
+											</a>
+										</li>
+
+
+									</ul>
+									<button type="button" class="ftrQckSite-btnClose" title="읍면 행정복지센터 닫기"></button>
+								</dd>
+							</dl>
+						</li>
+
+
+						<li>
+							<button type="button" class="ftrQckSite-btnDepth">
+								<span>
+									사업소
+								</span>
+							</button>
+							<dl class="ftrQckSite-depth2">
+								<dt>사업소</dt>
+								<dd>
+									<ul class="cmpe-list" data-bullet="disc">
+
+
+										<li>
+											<a href="/portal/jeongseongun/healthcenter">
+												정선군 보건소
+
+											</a>
+										</li>
+
+										<li>
+											<a href="/portal/jeongseongun/agriculturalcenter">
+												농업기술센터
+
+											</a>
+										</li>
+
+
+									</ul>
+									<button type="button" class="ftrQckSite-btnClose" title="사업소 닫기"></button>
+								</dd>
+							</dl>
+						</li>
+
+
+						<li>
+							<button type="button" class="ftrQckSite-btnDepth">
+								<span>
+									패밀리사이트
+								</span>
+							</button>
+							<dl class="ftrQckSite-depth2">
+								<dt>패밀리사이트</dt>
+								<dd>
+									<ul class="cmpe-list" data-bullet="disc">
+
+
+										<li>
+											<a href="https://www.gwpolice.go.kr/js/main/main.jsp" target="_blank" title="새 창 이동">
+												정선경찰서
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="https://js119.gwd.go.kr/index.sko" target="_blank" title="새 창 이동">
+												정선소방서
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="https://www.koreapost.go.kr/kw/233/" target="_blank" title="새 창 이동">
+												정선우체국
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="http://gwjsed.gwe.go.kr/main.do" target="_blank" title="새 창 이동">
+												정선교육지원청
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="http://www.jsimc.or.kr/" target="_blank" title="새 창 이동">
+												정선군 시설관리공단
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="http://www.jeongseon-pti.com/index.php" target="_blank" title="새 창 이동">
+												정선군 대중교통정보
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="http://jeongseon.go.kr/portal/partinfo/edu_employment/work" target="_blank" title="새 창 이동">
+												정선군 일자리지원센터
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="http://www.jacf.or.kr/" target="_blank" title="새 창 이동">
+												정선아리랑문화재단
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="http://www.jscaritas.org/" target="_blank" title="새 창 이동">
+												정선군종합사회복지관
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="http://www.jscc.or.kr/" target="_blank" title="새 창 이동">
+												정선문화원
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="http://www.jssports.or.kr" target="_blank" title="새 창 이동">
+												정선군체육회
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="http://www.greenjs21.or.kr/main.php" target="_blank" title="새 창 이동">
+												정선군지속가능발전협의회
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="https://www.kcomwel.or.kr/jeongseon/index.jsp" target="_blank" title="새 창 이동">
+												정선병원
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="http://jeongseon.nonghyup.com/user/indexMain.do?siteId=jeongseon" target="_blank" title="새 창 이동">
+												정선농협
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="http://jeongseon.nfcf.or.kr/" target="_blank" title="새 창 이동">
+												정선군산림조합
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+
+									</ul>
+									<button type="button" class="ftrQckSite-btnClose" title="패밀리사이트 닫기"></button>
+								</dd>
+							</dl>
+						</li>
+
+
+						<li>
+							<button type="button" class="ftrQckSite-btnDepth">
+								<span>
+									유관사이트
+								</span>
+							</button>
+							<dl class="ftrQckSite-depth2">
+								<dt>유관사이트</dt>
+								<dd>
+									<ul class="cmpe-list" data-bullet="disc">
+
+
+										<li>
+											<a href="http://www.elis.go.kr/newlaib/laibLaws/h1126/laws.jsp?regionId=42770" target="_blank" title="새 창 이동">
+												자치법규정보시스템
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="http://www.mogef.go.kr/" target="_blank" title="새 창 이동">
+												여성 e-News
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="https://www.hira.or.kr/main.do" target="_blank" title="새 창 이동">
+												건강보험심사평가원
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="https://www.relaycall.or.kr/home/main1.asp" target="_blank" title="새 창 이동">
+												청각장애인 전화
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="https://nip.cdc.go.kr/irgd/intro.html" target="_blank" title="새 창 이동">
+												예방접종도우미
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="https://www.naqs.go.kr/" target="_blank" title="새 창 이동">
+												국립농산물품질관리원
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="https://www.kosha.or.kr/main.do?chk=1" target="_blank" title="새 창 이동">
+												안전보건공단
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="https://www.nhis.or.kr/retrieveHomeMain.xx" target="_blank" title="새 창 이동">
+												국민건강보험공단
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="http://gwpeace.gwd.go.kr/peace" target="_blank" title="새 창 이동">
+												강원평화특별자치도
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+										<li>
+											<a href="https://legacy2018.or.kr" target="_blank" title="새 창 이동">
+												2018평창기념재단
+
+												<img alt="새 창 아이콘" src="/page/common/images/ico-newwindow.png" />
+
+											</a>
+										</li>
+
+
+									</ul>
+									<button type="button" class="ftrQckSite-btnClose" title="유관사이트 닫기"></button>
+								</dd>
+							</dl>
+						</li>
+
+
+
+					</ul>
+
+
+
+
+					<div class="ftrInfoArea">
+						<div class="ftrAddress">
+							<span>26131 강원도 정선군 정선읍 봉양3길 21</span>
+							<span>대표전화(정선군콜센터) 1544-9053</span>
+							<span>팩스 033-562-0114</span>
+							<span>Copyright© by Jeongseon, All right reserved.</span>
+						</div>
+					</div>
+
+					<div class="top">
+						<a href="#">
+							<span class="blind">상단으로 이동</span>
+						</a>
+					</div>
+
+				</div>
+
+			</div>
+		</footer>
+
+		<!--// Ftr -->
+	</div>
+
+</body>
+
+</html>

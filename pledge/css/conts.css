@@ -1,0 +1,338 @@
+@charset "utf-8";
+
+.pager a{text-decoration: none!important;}
+[lang=ko] #Sub{font-family: 'NanumGothic', sans-serif;}
+.listLv2 li{margin-bottom: 0;}
+.contsArea{min-height: auto;}
+.skinContainer{}
+
+@media (max-width: 1199px)
+{
+
+	.skinContainer {padding: 20px;}
+
+}
+
+/* 역대군수 */
+.boProfile{margin: 0 -1.3%;}
+.boProfile li{position: relative; float: left; width: 22.4%!important; margin: 0 1.3% 34px!important; line-height: 1;}
+.boProfile + .pager{padding-bottom: 76px;}
+.boProfile-seq{display: inline-block!important; margin-bottom: 0!important; position: absolute; bottom: 87px; left: 50%; transform: translateX(-50%); width: 100px!important; height: 24px; line-height: 24px; border-radius: 50px; color: #fff; background: #002d68;}
+.boProfile-name{padding-top: 34px; margin-bottom:14px!important; line-height: 1; font-size: 18px; color: #000;}
+.boProfile-date{margin: 0!important; padding-bottom: 14px; color: #313131; letter-spacing: -1px;}
+.boProfile-img{margin-bottom: 0; padding: 24px 0 35px 0;}
+.boProfile-img + div{position: relative; min-height:  79px; background: #eef3fa; text-align: center;}
+
+@media (max-width: 1024px) {
+
+	.boProfile{margin: 0;}
+	.boProfile li{width: 31.3%!important; margin: 0 1% 34px!important;}
+
+}
+
+@media (max-width: 768px) {
+
+	.boProfile li{width: 48%!important;}
+
+}
+
+@media (max-width: 576px) {
+
+	.boProfile li{width: 100%!important; margin: 0 0 34px!important;}
+
+}
+
+/* 싪천과제 */
+.policy_box{text-align: center;}
+.policy_box{}
+.policy_box .policy_box_img{position: relative; margin-bottom: 104px;}
+.policy_box .policy_box_img::after{display: block; content: ""; position: absolute; bottom: -60px; left: 50%; transform: translateX(-50%); width: 39px; height: 24px; background: url(../images/common/tit_img_icon.png)no-repeat;}
+.policy_box > div{position: relative;}
+.policy_box h5{width: 210px; height: 54px; margin: 0 auto; line-height: 54px; border-radius: 50px; background: #2763ae; font-size: 26px; font-weight: 500; color: #fff;}
+.policy_box ul{max-width: 910px; padding: 46px 32px;  margin: -28px auto 105px; border: 4px solid #2763ae; line-height:1; border-radius: 130px; font-size: 0;}
+.policy_box ul li{display: inline-block; padding: 34px 0; margin-right: 37px; width: 133px; height: 136px;  border-radius: 50%; font-size: 18px; color: #fff; line-height: 23px; font-family: 'JSDongkang';}
+.policy_box ul li span{font-weight: 700;}
+.policy_box ul li.agriculture{background: #558218;}
+.policy_box ul li.happiness{background: #2567ac;}
+.policy_box ul li.culture{background: #f9731a;}
+.policy_box ul li.area{background: #4d429d;}
+.policy_box ul li.communication{background: #283875;}
+.policy_box ul li:last-child{margin-right: 0}
+
+@media (max-width: 1024px) {
+
+	.policy_box ul{padding: 46px 10px; border-radius: 50px; margin-bottom: 32px;}
+	.policy_box ul li{width: 182px; height: 182px; padding: 59px 0; margin: 0 2.5%;}
+	.policy_box ul li:last-child{margin-right: 2.5%;}
+
+}
+
+
+@media (max-width: 768px) {
+
+	.policy_box ul{}
+	.policy_box .policy_box_img img{display: block; width: 100%;}
+	.policy_box ul li{width: 196px; margin-bottom: 20px;}
+
+}
+
+@media (max-width: 490px) {
+
+	.policy_box ul li{width: 202px;}
+
+}
+
+/* 군수실 */
+.military_office{padding: 40px 0 104px 0;}
+.military_office img{display: block; width: 100%;}
+.military_office img.mobile{display: none;}
+.military_office .text_box{display: none; line-height: 1;}
+
+@media (max-width: 1199px) {
+
+	.military_office{padding: 0;}
+
+}
+
+@media (max-width: 768px) {
+
+	.military_office img.pc{display: none;}
+	.military_office img.mobile{margin-bottom: 33px; display: block;}
+	.military_office .text_box{display: block;}
+	.military_office .text_box h5{margin-bottom: 29px; color: #306cb5; line-height: 39px; font-weight: 700; font-size: 30px; font-family: 'JSDongkang'; }
+	.military_office .text_box h5 span{display: block;}
+	.military_office .text_box h5 span:nth-child(2){padding-left: 22px;}
+	.military_office .text_box p{margin-bottom: 52px; line-height: 26px; color: #292929;  font-family: 'NanumGothic', sans-serif;}
+	.military_office .text_box p span{display: block; margin-bottom: 8px;}
+
+}
+
+/* 프로필 */
+.profile{margin-top: 102px; padding: 0 33px;position: relative;}
+.profile::after{display: block; content: ""; position: absolute; top:0; left: 50%; right: 0; bottom: 0; z-index: -1; margin-left: -960px; width: 1920px; height: 620px; background: url(../images/sub/profile_bg.jpg)no-repeat; background-size: cover;}
+.profile .img_box{position: absolute; bottom: 64px; right:0; margin-right: 0; max-width: 50%;}
+.profile .img_box img{display: block; width: 100%; }
+.profile_box{padding: 115px 0 170px 0; margin-bottom: 30px;}
+.profile_box .text_box{position: relative;}
+.profile_box .text_box div{margin-right: 2.9%; float: left; /*width: 38%;*/ line-height: 1;}
+.profile_box h5{position: relative; z-index: 1; margin-bottom: 40px; font-family: 'JSDongkang'; font-size: 20px; color: #fff; font-weight: 700;}
+.profile_box h5::before{display: block; content: ""; position: absolute; top: -32px; left: -30px; z-index: -1; width: 38px; height: 39px; background: url(../images/sub/profile_icon.png)no-repeat;}
+.profile_box ul{}
+.profile_box ul li{color: #fff; line-height: 30px;}
+
+@media (max-width: 1199px) {
+
+	.profile::after{height: 100%;}
+
+}
+
+@media (max-width: 1024px) {
+
+	.profile{margin-top: 0;}
+	.profile_box{padding: 62px 0 269px 0;}
+	.profile .img_box{bottom: 0;}
+}
+
+@media (max-width: 880px) {
+
+	.profile .img_box{max-width: 389px;}
+	.profile_box{padding: 62px 0 365px 0;}
+
+}
+
+@media (max-width: 680px) {
+
+	.profile_box{padding-bottom: 60px;}
+	.profile .img_box{position: static; right: auto; max-width: none; max-width: 462px; bottom: 55px; top: 0; margin: 0 auto;}
+	.profile_box .text_box div{width: 47%; margin-right: 2.9%;}
+
+}
+
+@media (max-width: 414px) {
+
+	.profile_box h5{margin-bottom: 20px;}
+	.profile_box .text_box div{width: 100%;}
+	.profile_box ul{margin-bottom: 60px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* task */
+.task-img {position: relative;margin-bottom: 22px;text-align: center;}
+.task-img img {width: 100%;}
+.task-imgPc,
+.task-imgTa {display: none;}
+.task-imgMo {display: block;width: 100%;max-width: 600px;margin-bottom: 30px;}
+.task-tit {display: none;}
+.task-tab {margin-bottom: 18px;border: 1px solid #d0d0d0;}
+.task-tab:last-child {margin-bottom: 0;}
+.task-tabTit {position: relative;width: 100%;height: 49px;background: #ededed;line-height: 49px;color: #333;font-weight: 600;}
+.task-tabTit img {margin-right: 18px;vertical-align: top;}
+.task-tabTit button {position: absolute;top: 15px;right: 10px;color: #666;line-height: 1.5;}
+.task-tabConts {display: none;padding: 25px 0;}
+.task-tabConts li {padding: 0 20px;font-size: 14px;line-height: 1.8;}
+.task-tabConts li:before {width: 5px;height: 9px;margin-right: 7px;content: url(/page/42nd-governor/images/sub/bu-clamp.gif);}
+.task-tab.active .task-tabConts {display: block;}
+@media screen and (min-width: 640px){
+	.task-imgMo,
+	.task-imgPc {display: none;}
+	.task-imgTa {display: block;}
+	.task-img img {max-width: 626px;margin: 0 auto;}
+	.task-tit {display: block;position: absolute;top: 190px;left: 50%;margin-left: -84.5px;}
+	.task-tit-pc {display: none;}
+	.task-tit img {margin-bottom: 16px;}
+	.task-link a {display: block;width: 155px;height: 26px;margin: 1px auto;padding: 0 14px;background-color: #666;background-image: url(/page/42nd-governor/images/sub/btn-right-white.png);background-repeat: no-repeat;background-position: 138px center;border-radius: 5px;color: #fff;line-height: 26px;font-size: 12px;}
+}
+@media screen and (min-width: 1000px){
+	.task-imgMo,
+	.task-imgTa {display: none;}
+	.task-imgPc {display: block;}
+	.task-img img {max-width: 880px;}
+	.task-tit-ta {display: none;}
+	.task-tit-pc {display: block;}
+	.task-tit {top: 250px;margin-left: -114.5px;}
+	.task-tit img {margin-bottom: 28px;}
+	.task-link a {width: 226px;height: 40px;margin: 2px auto;padding: 0 20px;font-size: 16px;line-height: 40px;background-position: 200px center;}
+}
+
+/* current */
+.current-tit {height: 180px;margin-bottom: 16px;background: url(/page/42nd-governor/images/sub/img-situation-mo.jpg) center bottom no-repeat;text-align: center;}
+.current-tit img {width: 200px;margin-bottom: 8px;}
+.current-tit h5 {font-weight: 600;color: #fa8623;font-size: 14px;}
+.current-list {overflow: hidden;border-top: 2px solid #000;}
+.current-row {display: table;overflow: hidden;width: 100%;border-bottom: 1px solid #e7eaf0;vertical-align: middle;}
+.current-txt {display: table-cell;width: 100%;padding: 9px;border-right: 1px solid #e7eaf0;vertical-align: middle;font-size: 14px;}
+.current-down {height: auto;margin: 0;border: 0;vertical-align: middle;}
+.current-down span {display: none;}
+.current-downBtn {display: inline-block;float: right;width: 34px;height: 34px;margin: 9px 10px;font-size: 0;background-image: url(/common/images/btn-simplewhite-download.gif);background-repeat: no-repeat;background-color: #4d5360;background-position: center;}
+@media screen and (min-width: 640px){
+	.current-tit {height: 350px;background-image: url(/page/42nd-governor/images/sub/img-situation-ta.jpg);}
+	.current-tit h5 {font-size: 16px;}
+	.current-tit img {width: 400px;margin-bottom: 16px;}
+	.current-txt {font-size: 16px;}
+}
+@media screen and (min-width: 1000px){
+	.current-tit {height: 530px;background-image: url(/page/42nd-governor/images/sub/img-situation.jpg);}
+	.current-tit img {width: 620px;margin-bottom: 30px;}
+	.current-tit h5 {font-size: 20px;}
+	.current-down > span {display: inline-block;width: 126px;padding: 0 17px;}
+	.current-down {position: relative;height: 34px;margin: 10px 40px;border: 1px solid #4d5360;font-size: 16px;color: #4d5360;line-height: 34px;}
+	.current-down > a {width: 34px;height: 34px;}
+	.current-downBtn {position: absolute;right: 0;top: 0;margin: 0;}
+}
+
+/* working */
+.working {padding: 30px 25px;background-color: #f9fcff;border: 1px solid #cfdeef;}
+.working-box {margin-top: 20px;}
+.working-btn {width: 100%;}
+@media screen and (min-width: 400px){
+	.working-box {text-align: center;}
+	.working-btn {width: auto;}
+}
+@media screen and (min-width: 640px){
+	.working {background-image: url(/page/42nd-governor/images/sub/bg-working.jpg);background-repeat: no-repeat;background-position: top right;background-size: 60%;}
+	.working-btn {font-size: 14px}
+}
+@media screen and (min-width: 711px){
+	.working-btn {font-size: 16px}
+}
+@media screen and (min-width: 1000px){
+	.working {height: auto;background-size: 40%;}
+	.working-box {margin-top: 75px;}
+}
+
+/* policy */
+.policy {background: url(/page/portal/images/sub/openadmin/bg-policy-book.gif) center 110px no-repeat;background-size: contain;}
+.policy h5 {font-size: 20px;}
+.policy h5 {position: relative;padding: 20px;font-family: 'ë‚˜ëˆ”ê³ ë”• Bold', 'nanumGothicBold', nGothicB, sans-serif;text-align: center;}
+.policy h5:before {position: absolute;top: 0;left: 0;width: 16.5px;height: 19px;background: url(/page/portal/images/sub/openadmin/img-quotes-start.gif) 0 0 no-repeat;background-size: contain;content: '';}
+.policy h5:after {position: absolute;bottom: 0;right: 0;width: 16.5px;height: 19px;background: url(/page/portal/images/sub/openadmin/img-quotes-end.gif) 0 0 no-repeat;background-size: contain;content: '';}
+/*.policy h5 span:last-child {display: block;}*/
+.policy .policy-blue {color: #306cb5;}
+.policy .policy-green {color: #467b00;}
+.policy .policy-orange {display: block;font-size: 24px;color: #7D4900;}
+.policy .policy-txt {display: none;}
+.policy ul {overflow: hidden;margin-top: 40px;text-align: center;}
+.policy li {display: inline-block;width: 134px;height: 134px;margin-bottom: 15px;padding-top: 38px;background: url(/page/portal/images/sub/openadmin/pt-wedgerepeat-white.png) 0 0 repeat;border-radius: 67px;text-align: center;color: #fff;text-shadow: rgba(0, 0, 0, 0.7) 0px 0px 3px;}
+.policy li:first-child {margin-right: 20px;background-color: #92bc50;}
+.policy li:nth-child(2) {background-color: #fbae2a;}
+.policy li:nth-child(3) {margin-right: 20px;background-color: #7083cb;}
+.policy li:nth-child(4) {background-color: #478bd2;}
+.policy li:last-child {background-color: #fa5757;}
+@media screen and (min-width: 390px){
+	.policy .policy-orange {display: inline-block;}
+	.policy ul {margin-top: 60px;}
+}
+@media screen and (min-width: 446px){
+	.policy {background-position: 0 90px;}
+}
+@media screen and (min-width: 451px){
+	.policy li {margin-right: 10px;}
+	.policy li:nth-child(3),
+	.policy li:last-child {margin-right: 0;}
+}
+@media screen and (min-width: 540px){
+	.policy {background-position: center 70px;}
+}
+@media screen and (min-width: 600px){
+	.policy li {margin-right: 25px;}
+	.policy li:nth-child(3),
+	.policy li:last-child {margin-right: 0;}
+}
+@media screen and (min-width: 640px){
+	.policy {background-size: 500px;background-position: center 90px;}
+	.policy h5 {margin: 0 10%;font-size: 24px;}
+	.policy .policy-orange {font-size: 28px;}
+	.policy ul {padding: 0 60px;}
+}
+@media screen and (min-width: 780px){.policy ul {padding: 0 100px;}}
+@media screen and (min-width: 860px){.policy ul {padding: 0 160px;}}
+@media screen and (min-width: 980px){.policy ul {padding: 0 200px;}}
+@media screen and (min-width: 1000px){
+	.policy {background-size: auto;background-position: center 150px;}
+	.policy h5 {margin: 0 160px;font-size: 36px;}
+	.policy .policy-orange {font-size: 40px;}
+	.policy .policy-txt {display: block;margin-top: 130px;font-size: 30px;text-align: center;}
+	.policy .policy-txt {position: relative;padding: 20px;font-family: 'ë‚˜ëˆ”ê³ ë”• Bold', 'nanumGothicBold', nGothicB, sans-serif;text-align: center;}
+	.policy ul {margin: 0;padding: 0;}
+	.policy li:first-child,
+	.policy li:nth-child(2),
+	.policy li:nth-child(3),
+	.policy li:nth-child(4) {margin-right: 40px;}
+}

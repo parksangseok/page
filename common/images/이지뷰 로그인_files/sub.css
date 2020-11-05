@@ -1,0 +1,153 @@
+.bgSubArea {
+	background-color: rgb(57, 56, 61);
+}
+.hdr {
+	left: 0px; width: 250px; position: fixed;
+}
+.ftr {
+	left: 0px; width: 250px; position: fixed;
+}
+.hdr {
+	top: 0px; height: calc(100% - 80px); z-index: 20; -ms-overflow-y: auto;
+}
+.ftr {
+	padding: 10px 20px 0px; height: 80px; bottom: 0px; color: rgb(255, 255, 255); line-height: 1.5; font-size: 11px; z-index: 30;
+}
+.sub {
+	margin-left: 250px; min-height: 100%; background-color: rgb(255, 255, 255);
+}
+.sub .subUtilArea {
+	padding: 0px 23px;
+}
+.sub .subTit {
+	padding: 0px 23px;
+}
+.sub-conts {
+	padding: 0px 23px;
+}
+.sub .subUtilArea {
+	padding-right: 0px;
+}
+.sub .subUtilArea {
+	margin-bottom: 30px;
+}
+.sub .subTit {
+	margin-bottom: 30px;
+}
+.subUtilArea {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(186, 186, 186); overflow: hidden; background-color: rgb(233, 233, 233);
+}
+.subUtilArea .serviceUser {
+	height: 65px; line-height: 65px;
+}
+.subUtilArea .subUtil > li {
+	height: 65px; line-height: 65px;
+}
+.subUtilArea .serviceUser {
+	float: left;
+}
+.subUtilArea .subUtil {
+	float: right;
+}
+.logo {
+	height: 65px; line-height: 65px;
+}
+.subUtil > li {
+	height: 65px; line-height: 65px;
+}
+.logo {
+	border-bottom-color: rgb(34, 33, 36); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.gnb-btn {
+	border-bottom-color: rgb(34, 33, 36); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.gnb-list2 {
+	border-bottom-color: rgb(34, 33, 36); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.logo {
+	padding: 15px 0px; text-align: center;
+}
+.gnb {
+	color: rgb(255, 255, 255);
+}
+.gnb a:link {
+	color: rgb(255, 255, 255);
+}
+.gnb a:hover {
+	color: rgb(255, 255, 255);
+}
+.gnb a:visited {
+	color: rgb(255, 255, 255);
+}
+.gnb-btn {
+	display: block;
+}
+.gnb-btnInner {
+	display: block;
+}
+.gnb-btn2 {
+	display: block;
+}
+.gnb-btn {
+	padding: 15px 20px;
+}
+.gnb-list2 {
+	padding: 15px 20px;
+}
+.gnb-list {
+	line-height: 1.5; font-size: 14px;
+}
+.gnb-list > li.active .gnb-btn {
+	background-color: rgb(51, 50, 55);
+}
+.gnb-btnInner {
+	background: url("../images/btn-gnb.png") no-repeat 100% 50%;
+}
+.gnb-btnInner::before {
+	margin-right: 10px; display: inline-block; content: url(../images/ico-folder.png);
+}
+.gnb-list2 {
+	line-height: 1.5; font-size: 11px;
+}
+.gnb-list2 a:link {
+	color: rgb(153, 153, 153);
+}
+.gnb-list2 a:hover {
+	color: rgb(153, 153, 153);
+}
+.gnb-list2 a:visited {
+	color: rgb(153, 153, 153);
+}
+.gnb-btn2 {
+	background: url("../images/bu-gnb-sublist.gif") no-repeat 0px 12px; padding: 10px 0px 10px 10px;
+}
+.gnb-list2 > li.active .gnb-btn2 {
+	color: rgb(255, 255, 255); background-image: url("../images/bu-gnb-sublist-on.gif");
+}
+.subUtil {
+	overflow: hidden;
+}
+.subUtil > li {
+	width: 65px; height: 65px; line-height: 65px; border-left-color: rgb(188, 188, 188); border-left-width: 1px; border-left-style: solid; float: left;
+}
+.subUtil a {
+	background-position: 50% 50%; width: 100%; height: 100%; display: block; background-repeat: no-repeat;
+}
+.subUtil-edit a {
+	background-image: url("../images/ico-util.gif");
+}
+.subUtil-logout a {
+	background-image: url("../images/ico-util2.gif");
+}
+.serviceUser {
+	font-weight: 600;
+}
+.serviceUser img {
+	margin-right: 10px; vertical-align: middle;
+}
+.subTit {
+	color: rgb(23, 29, 39); line-height: 1.5; font-size: 28px;
+}
+.subTit span {
+	color: rgb(117, 121, 133); line-height: 1.5; font-size: 12px;
+}
